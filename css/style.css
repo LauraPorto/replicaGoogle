@@ -26,15 +26,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 0.9em;
 }
 .imagenes {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 0.9em;
 }
-.cuadriculaPunto {
-    width: 1.5em;
-    height: 1.5em;
+.contenedorCuadricula {
+    width: 1em;
+    height: 1em;
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -46,13 +48,22 @@
     height: 0.2em;
     width: 0.2em;
 
-    background-color: black;
+    background-color: #333333;
 }
 .signUp {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: none;
 }
+.buttonSignUp {
+    background-color: #4285f4;
+    color: white;
+    border-style: none;
+    font-size: 0.9em;
+}
+
+
 
 .logo {
     height: 15em;
@@ -64,31 +75,65 @@
     align-items: center;
     justify-content: center;
 }
-
 .logoImage {
-    height: 8em;
-    width: 23em;
+    height: 8.5em;
+    width: 25em;
 
-    background-image: url(https://hipertextual.com/files/2015/09/google-logo-2013.jpg);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png);
     background-size: cover;
     background-position: center;
 }
 
-.barra {
+.search {
     height: 10em;
     width: vmax;
 
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*
+.barra {
+    height: 10em;
+    width: vmax;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-end;
+
+    
+    display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-}
+    
+}*/
 
 input {
     height: 3em;
     width: 30em;
 
+    font-size: 1em;
+
     border-radius: 2em;    
 }
+p {
+    font-family: arial, sans-serif;
+}
+
+.searchButton {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-style: none;
+}
+
+
 
 .space {
     height: 15em;
