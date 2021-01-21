@@ -10,7 +10,7 @@
 
 .top1 {
     height: 3em;
-    width: 25em;
+    width: 50em;
 }
 
 .topLeft {
@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 .gmail {
     display: flex;
@@ -40,8 +41,6 @@
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     align-items: flex-end;
-
-    background-color: orange;
 }
 .punto {
     height: 0.2em;
@@ -53,12 +52,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    background-color: blue;
 }
-
-
-
 
 .logo {
     height: 15em;
@@ -81,10 +75,19 @@
 }
 
 .barra {
-    height: 8em;
+    height: 10em;
     width: vmax;
 
-    background-color:orange;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+input {
+    height: 3em;
+    width: 30em;
+
+    border-radius: 2em;    
 }
 
 .space {
