@@ -1,0 +1,102 @@
+.top {
+    height: 3em;
+    width: vmax;
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.top1 {
+    height: 3em;
+    width: 25em;
+}
+
+.topLeft {
+    height: 3em;
+    width: 50em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gmail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cuadriculaPunto {
+    width: 1.5em;
+    height: 1.5em;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-end;
+
+    background-color: orange;
+}
+.punto {
+    height: 0.2em;
+    width: 0.2em;
+
+    background-color: black;
+}
+.signUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: blue;
+}
+
+
+
+
+.logo {
+    height: 15em;
+    width: vmax;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImage {
+    height: 8em;
+    width: 23em;
+
+    background-image: url(https://hipertextual.com/files/2015/09/google-logo-2013.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.barra {
+    height: 8em;
+    width: vmax;
+
+    background-color:orange;
+}
+
+.space {
+    height: 15em;
+    width: vmax;
+
+    background-color: white;
+}
+
+.bottom {
+    height: 3em;
+    width: vmax;
+
+    background-color:violet ;
+}
