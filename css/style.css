@@ -1,6 +1,11 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
 .top {
     height: 3em;
-    width: vmax;
+    width: 100%;
 
     background-color: white;
     display: flex;
@@ -28,6 +33,7 @@
     align-items: center;
     font-size: 0.9em;
 }
+
 .contenedorCuadricula {
     width: 1em;
     height: 1em;
@@ -38,18 +44,21 @@
     justify-content: center;
     align-items: flex-end;
 }
+
 .punto {
     height: 0.2em;
     width: 0.2em;
 
     background-color: #333333;
 }
+
 .signUp {
     display: flex;
     flex-direction: row;
     align-items: center;
     border: none;
 }
+
 .buttonSignUp {
     background-color: #4285f4;
     color: white;
@@ -57,17 +66,18 @@
     font-size: 0.9em;
 }
 
-
 .logo {
     height: 15em;
-    width: vmax;
-
+    width: 100%;
     background-color: white;
-
+    /*margin-bottom: 3em;*/
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+
 .logoImage {
     height: 8.5em;
     width: 25em;
@@ -78,12 +88,12 @@
 }
 
 .search {
-    height: 10em;
-    width: vmax;
+    height: 9em;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -92,10 +102,8 @@ input {
     width: 30em;
 
     font-size: 1em;
-
     border-radius: 2em;    
 }
-
 input:hover {
     height: 3.5em;
     width: 33em;
@@ -104,7 +112,6 @@ input:hover {
 p {
     font-family: arial, sans-serif;
 }
-
 
 .searchButtons {
     display: flex;
@@ -117,21 +124,45 @@ button {
     border-style: none;
     margin: 1em;
 }
-
 button:hover {
     border-style: solid;
 }
 
-.space {
-    height: 15em;
-    width: vmax;
+.bottom {
+    height: 8em;
+    width: 100%;
+    background-color:#832727;
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
 
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.bottom1 {
+    height: 3em;
+    width: 100%;
+    background-color: cadetblue;
 }
 
-.bottom {
+.bottom2 {
     height: 3em;
-    width: vmax;
+    width: 100%;
+    background-color: blue;
 
-    background-color:violet ;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.bottom3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
