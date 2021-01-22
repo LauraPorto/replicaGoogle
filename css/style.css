@@ -1,8 +1,3 @@
-body{
-    height: 100%;
-    width: 100%;
-}
-
 .top {
     height: 3em;
     width: 100%;
@@ -56,21 +51,22 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: none;
 }
 
 .buttonSignUp {
     background-color: #4285f4;
-    color: white;
     border-style: none;
     font-size: 0.9em;
+}
+
+b {
+    color: white;
 }
 
 .logo {
     height: 15em;
     width: 100%;
     background-color: white;
-    /*margin-bottom: 3em;*/
     
     display: flex;
     align-items: center;
@@ -111,6 +107,11 @@ input:hover {
 
 p {
     font-family: arial, sans-serif;
+    font-size: 0.9em;
+    color: #212F3D;
+}
+p:hover {
+    font-size: 1.1em;
 }
 
 .searchButtons {
@@ -128,41 +129,25 @@ button:hover {
     border-style: solid;
 }
 
+
 .bottom {
-    height: 8em;
+    height: 6em;
     width: 100%;
-    background-color:#832727;
+    background-color: #efefef;
     position: absolute;
     bottom: 0em;
     left: 0em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-evenly;
 }
+
 .bottom1 {
-    height: 3em;
-    width: 100%;
-    background-color: cadetblue;
-}
-
-.bottom2 {
-    height: 3em;
-    width: 100%;
-    background-color: blue;
-
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+    margin-left: 2em;
+    border: grey;
 }
 
 .bottom3 {
-    display: flex;
+    display: flex ;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-
+    justify-content: space-around;    
 }
+
